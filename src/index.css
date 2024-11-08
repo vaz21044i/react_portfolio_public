@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: #76a9fa;
+  transform-origin: 0%;
+}
+
+.active {
+  font-weight: bold;
+  color: #76a9fa;  
+}
